@@ -36,17 +36,16 @@
 
 ### Via pip (recommended)
 
-```bash
-pip install git+https://github.com/georgijnazarenko/period-tracker-tui.git
-```
+````bash
+pip install git+https://github.com/Hostrrr/period-tracker-tui.git
 
 ### From source
 
 ```bash
-git clone https://github.com/georgijnazarenko/period-tracker-tui.git
+git clone https://github.com/Hostrrr/period-tracker-tui.git
 cd period-tracker-tui
 pip install .
-```
+````
 
 ---
 
