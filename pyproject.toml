@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "period-tracker-tui"
+version = "1.0.0"
+description = "Terminal UI period tracker built with Textual"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "textual>=0.50.0",
+]
+
+[project.scripts]
+period-tracker = "period_tracker.main:main"
